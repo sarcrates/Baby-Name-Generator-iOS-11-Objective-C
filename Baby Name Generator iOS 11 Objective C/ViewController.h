@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *bnglabel;
+@property (weak, nonatomic) IBOutlet UILabel *generatednamelabel;
+@property (weak, nonatomic) IBOutlet UIButton *generatebutton;
 
 
 @end
